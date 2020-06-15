@@ -21,7 +21,7 @@ class String
     sentence_string.count
   end
   
-   string = self.split(/\?|\.|!/) 
+   string = self.split(/\?|\.|!/).reject {|item| item == ''}
   
   
 end
