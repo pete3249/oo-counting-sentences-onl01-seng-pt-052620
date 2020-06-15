@@ -15,14 +15,8 @@ class String
   end
 
   def count_sentences
-    binding.pry
-    string = self.split(/\?|\.|!/)
-    sentence_string = string.reject {|item| item == ''}
-    sentence_string.count
+    string = self.split(/\?|\.|!/).reject {|item| item == ''}.count
   end
-  
-   string = self.split(/\?|\.|!/).reject {|item| item == ''}
-  
   
 end
 
