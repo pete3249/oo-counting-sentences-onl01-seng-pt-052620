@@ -21,5 +21,8 @@ class String
     sentence_string.count
   end
   
+   string = self.split(/\?|\.|!/) 
+  
+  
 end
 
